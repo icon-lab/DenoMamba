@@ -62,8 +62,7 @@ You should structure your aligned dataset in the following way:
   │     ├── Soft Kernel         │     ├── Soft Kernel
   │       ├── L192              │       ├── L192
   |          - ...              |          - ...
-  │       ├── ...               │       ├── ...
-  │                             │
+  │       ├── ...               │       ├── ... 
 
 ``` 
 ## Training
