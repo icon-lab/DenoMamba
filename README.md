@@ -141,6 +141,18 @@ python test.py --full_dose_path example_full_dose_path --quarter_dose_path examp
 These arguments are essential for the program to locate the necessary datasets and save the trained model.
 
 
+## Citation
+You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
+```
+@article{ozturk2024denomamba,
+  title={DenoMamba: A fused state-space model for low-dose CT denoising}, 
+  author={Şaban Öztürk and Oğuz Can Duran and Tolga Çukur},
+  year={2024},
+  journal={arXiv:2409.13094}
+}
+```
+
+
 For any questions, comments and contributions, please feel free to contact Şaban Öztürk (saban.ozturk[at]bilkent.edu.tr)
 
 ## Acknowledgments
