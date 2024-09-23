@@ -11,7 +11,7 @@
 </div>  
 <hr>
 
-<h3 align="center">[<a href="https://arxiv.org/abs/denomamba">arXiv</a>]</h3>
+<h3 align="center">[<a href="https://arxiv.org/abs/2409.13094">arXiv</a>]</h3>
 
 Official PyTorch implementation of **DenoMamba**, a novel denoising method based on state-space modeling (SSM), that efficiently captures short- and long-range context in medical images. Following an hourglass architecture with encoder-decoder stages, DenoMamba employs a spatial SSM module to encode spatial context and a novel channel SSM module equipped with a secondary gated convolution network to encode latent features of channel context at each stage. Feature maps from the two modules are then consolidated with low-level input features via a convolution fusion module (CFM).
 
