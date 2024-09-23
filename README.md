@@ -90,8 +90,8 @@ python3 train.py --full_dose_path example_full_dose_path --quarter_dose_path exa
 | --validation_freq       | Frequency to run validation                               |
 | --save_freq             | Frequency to save model                                   |
 | --batch_number          | Number of a batch in validation to show the sample images |
-| --num_blocks            | Number of transformer block layers                        |
-| --dim                   | Number of transformer blocks                              |
+| --num_blocks            | Number of FuseSSM block layers                            |
+| --dim                   | Number of FuseSSM blocks                                  |
 | --num_refinement_blocks | Number of refinement blocks                               |
 
 
@@ -124,10 +124,10 @@ python test.py --full_dose_path example_full_dose_path --quarter_dose_path examp
 | --in_ch                 | Number of input image channels                            |
 | --out_ch                | Number of output image channels                           |
 | --ckpt_path             | Path to trained and saved checkpoint model                |
-| --output_root           | Path to save denoised images                |
-| --num_blocks            | Number of transformer block layers                        |
-| --dim                   | Number of transformer blocks                              |
-| --num_refinement_blocks | Number of refinement blocks                               |
+| --output_root           | Path to save denoised images                              |
+| --num_blocks            | Number of FuseSSM block layers                            |
+| --dim                   | Number of FuseSSM blocks                                  |
+| --num_refinement_blocks | Number of FuseSSM blocks                                  |
 
 
 
