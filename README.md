@@ -36,7 +36,6 @@ You are welcome to ask any library issues.
 To reproduce the results reported in the paper, we recommend the following dataset processing steps:
 
 Sequentially select subjects from the dataset.
-Apply skull-stripping to 3D volumes.
 Select 2D cross-sections from each subject.
 Normalize the selected 2D cross-sections before training and before metric calculation.
 
