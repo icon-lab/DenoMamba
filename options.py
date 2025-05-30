@@ -26,8 +26,8 @@ class TrainOptions():
         
         
         self.parser.add_argument('--n_layer', type=int, default=4, help='Number of transformer block layers')
-        self.parser.add_argument('--num_blocks', nargs='+', type=int, default=[4, 6, 6, 8], help='Number of transformer blocks')
-        self.parser.add_argument('--dim', type=int, default=48, help='Transformer block dimension')
+        self.parser.add_argument('--num_blocks', nargs='+', type=int, default=[1, 2, 2, 3], help='Number of transformer blocks')
+        self.parser.add_argument('--dim', type=int, default=16, help='Transformer block dimension')
         self.parser.add_argument('--num_refinement_blocks', type=int, default=2, help='Number of refinement blocks')
 
         self.initialized = True
